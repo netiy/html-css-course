@@ -1,0 +1,27 @@
+<!-- [4a Uber] Modify exercises 3a - 3e to use padding instead of height/width. -->
+<!-- https://raw.githubusercontent.com/netiy/html-css-course/main/1%20-%20Exercise%20Solutions/Lesson%203%20-%20Hovers%2C%20Transitions%2C%20Shadows/3a.html -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>4a.html</title>
+        <style>
+            .uber-request-now-button {
+                background-color: black;
+                color: white;
+                padding: 9px 16px;
+                border: none; 
+                cursor: pointer;
+                transition: opacity 0.15s;
+            }
+            .uber-request-now-button:hover {
+                opacity: 0.8;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="uber-request-now-button">Request now</button>
+    </body>
+</html>

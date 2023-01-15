@@ -1,0 +1,28 @@
+<!-- [4c Github] Modify exercises 3a - 3e to use padding instead of height/width. -->
+<!-- https://raw.githubusercontent.com/netiy/html-css-course/main/1%20-%20Exercise%20Solutions/Lesson%203%20-%20Hovers%2C%20Transitions%2C%20Shadows/3c.html -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>4c.html</title>
+        <style>
+            .github-sign-up-button {
+                background-color: rgb(46, 164, 79);
+                color: white;
+                padding:5px 16px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: box-shadow 0.15s;
+            }
+            .github-sign-up-button:hover {
+                box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.15);
+            }
+        </style>
+    </head>
+    <body>
+        <button class="github-sign-up-button">Sign up</button>
+    </body>
+</html>
