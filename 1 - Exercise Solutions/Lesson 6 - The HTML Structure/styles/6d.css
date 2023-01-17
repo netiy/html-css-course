@@ -1,0 +1,12 @@
+html {
+    font-family: Montserrat, Arial;
+    text-align: center;
+}
+.header {
+    font-weight: 700;
+    font-size: 50px;
+}
+.content {
+    font-size: 26px;
+    margin-top: -25px;
+}
