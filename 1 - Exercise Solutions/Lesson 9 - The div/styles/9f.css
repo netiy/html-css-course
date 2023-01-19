@@ -1,0 +1,40 @@
+
+.div {
+    width: 270px;
+    height: 440px;
+    margin: 50px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.3);
+    font-family: "Roboto";
+    border-radius: 8px;
+    overflow: hidden;
+}
+.div-image , .div-image img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+.div-content {
+    padding: 14px 18px 15px;
+}
+.div-content span {
+    font-size: 29px;
+    font-weight: 700;
+}
+.div-content p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(108, 108, 108);
+}
+.div-content button {
+    background-color: rgb(58, 117, 231);
+    color: white;
+    padding: 16px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.div-content button:hover {
+    background-color: rgb(58, 117, 231, 0.8);
+}
