@@ -1,0 +1,33 @@
+html {
+    text-align: center;
+    
+}
+input {
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    height: 35px;
+    padding-left: 10px;
+    
+}
+.textbox-name {
+    width: 137px;
+    margin-bottom: 8px;
+}
+.textbox-email {
+    margin: auto;    
+    width: 294px;
+    display: block;
+    margin-bottom: 8px;
+}
+.button-signup {
+    background-color: rgb(58, 116, 231);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 310px;
+    height: 40px;
+    padding:10px;
+}
